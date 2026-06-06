@@ -36,10 +36,7 @@ GEMINI_API_KEY=your_api_key_here
 You can obtain a Gemini API key from Google AI Studio.
 5. Add Your Resume and Summary
 Place your resume PDF in the data folder.
-Example:
-data/
-├── sample_resume.pdf
-└── sample_summary.txt
+data/sample_resume.pdf, data/sample_resume.pdf
 Update the file names in app.py if you use different names.
 Add a short professional summary in sample_summary.txt. The AI will use both the resume and summary as context when answering questions.
 6. Run the Application
