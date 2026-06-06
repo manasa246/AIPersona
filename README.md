@@ -39,6 +39,7 @@ Place your resume PDF in the data folder.
 data/sample_resume.pdf, data/sample_resume.pdf
 Update the file names in app.py if you use different names.
 Add a short professional summary in sample_summary.txt. The AI will use both the resume and summary as context when answering questions.
+Add you name in app.py: name = <Add_your_name_here>.
 6. Run the Application
 python app.py
 A Gradio interface will open in your browser where you can chat with your AI-powered professional profile assistant.

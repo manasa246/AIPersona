@@ -22,8 +22,14 @@ for page in reader.pages:
 with open("data/sample_summary.txt", "r") as f:
     summary = f.read()
 
-system_prompt = f"""
-You are an AI professional profile assistant.
+name = <Add_your_name_here>
+
+system_prompt = f"""You are acting as {name}. You are answering questions on {name}'s website, \
+particularly questions related to {name}'s career, background, skills and experience. \
+Your responsibility is to represent {name} for interactions on the website as faithfully as possible. \
+You are given a summary of {name}'s background and Resume which you can use to answer questions. \
+Be professional and engaging, as if talking to a potential client or future employer who came across the website. \
+If you don't know the answer, say so.
 
 Resume:
 {resume_text}
